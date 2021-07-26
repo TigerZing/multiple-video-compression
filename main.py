@@ -17,7 +17,7 @@ def read_config(parser):
     parser.add_argument('--output_path', type=str,default="/mnt/exhdd1/exhdd1_hont/DATASET/Multiple_video_compression/1080p",  help='feed the output_folder path' )
     parser.add_argument('--format', type=str, default="420", help='420 | 444')
     parser.add_argument('--QP', type=str, default=42, help='Quantization parameter')
-    parser.add_argument('--encoder_path', type=str,default="/Multiple_video_compression/EncoderAppStatic",  help='Encoder file path' )
+    parser.add_argument('--encoder_path', type=str,default="/home/hont/multiple_video_compression/multiple_video_compression/multiple_video_compression/EncoderAppStatic",  help='Encoder file path' )
     parser.add_argument('--configuration_file', type=str,default="encoder_lowdelay_P_vtm.cfg",  help='config profile path' )
     parser.add_argument('--sequence_config_template_file', type=str,default="template.cfg",  help='config files path for sequence' )
     return parser.parse_args()
