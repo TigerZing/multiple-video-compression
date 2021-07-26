@@ -1,27 +1,5 @@
 import os
 import os.path as osp
-from imageio import imread
-from imageio import imsave
-import getopt
-import math
-import numpy
-import os
-import PIL
-import PIL.Image as Image
-import random
-import shutil
-import sys
-import tempfile
-import time
-import os.path as osp
-import numpy as np
-from numpy import zeros, newaxis
-from tqdm import tqdm
-import sys
-import time
-import io
-import time
-import cv2
 
 class Sequence:
     "Description of uncompressed sequence"

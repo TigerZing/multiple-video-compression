@@ -1,10 +1,7 @@
 # Import common packages
 import glob
-from os import system
 import os
 import os.path as osp
-import tqdm
-import cv2
 from Sequence import Sequence
 
 # Check if folder exists, if not create it
